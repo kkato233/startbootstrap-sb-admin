@@ -1,0 +1,10 @@
+﻿Bootstrap バンドルスクリプトの謎
+
+Tooltip がちゃんと表示されない現象が発生するため
+下記のように sb-admin に付属の bootstrap を利用した。
+
+<script src="~/lib/sb-admin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+Visual Studio の Bowser 管理画面で Bootstrap 4 beta2 を入れようとするとエラーとなる。
+
+何とか解決してほしいものだ・・。

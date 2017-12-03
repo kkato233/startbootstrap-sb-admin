@@ -134,4 +134,8 @@
     <None Include="wwwroot\lib\sb-admin\vendor\jquery\jquery.min.js" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\bootstrap-4.0.0-beta\" />
+  </ItemGroup>
+
 </Project>
