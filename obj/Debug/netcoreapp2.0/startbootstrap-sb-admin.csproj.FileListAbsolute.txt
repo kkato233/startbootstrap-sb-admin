@@ -1,0 +1,13 @@
+C:\Users\kato\Documents\GitHub\startbootstrap-sb-admin\bin\Debug\netcoreapp2.0\Data\app.db
+C:\Users\kato\Documents\GitHub\startbootstrap-sb-admin\bin\Debug\netcoreapp2.0\startbootstrap-sb-admin.deps.json
+C:\Users\kato\Documents\GitHub\startbootstrap-sb-admin\bin\Debug\netcoreapp2.0\startbootstrap-sb-admin.runtimeconfig.json
+C:\Users\kato\Documents\GitHub\startbootstrap-sb-admin\bin\Debug\netcoreapp2.0\startbootstrap-sb-admin.runtimeconfig.dev.json
+C:\Users\kato\Documents\GitHub\startbootstrap-sb-admin\bin\Debug\netcoreapp2.0\startbootstrap-sb-admin.dll
+C:\Users\kato\Documents\GitHub\startbootstrap-sb-admin\bin\Debug\netcoreapp2.0\startbootstrap-sb-admin.pdb
+C:\Users\kato\Documents\GitHub\startbootstrap-sb-admin\obj\Debug\netcoreapp2.0\startbootstrap-sb-admin.csprojResolveAssemblyReference.cache
+C:\Users\kato\Documents\GitHub\startbootstrap-sb-admin\obj\Debug\netcoreapp2.0\startbootstrap-sb-admin.csproj.CoreCompileInputs.cache
+C:\Users\kato\Documents\GitHub\startbootstrap-sb-admin\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\kato\Documents\GitHub\startbootstrap-sb-admin\obj\Debug\netcoreapp2.0\startbootstrap-sb-admin.AssemblyInfoInputs.cache
+C:\Users\kato\Documents\GitHub\startbootstrap-sb-admin\obj\Debug\netcoreapp2.0\startbootstrap-sb-admin.AssemblyInfo.cs
+C:\Users\kato\Documents\GitHub\startbootstrap-sb-admin\obj\Debug\netcoreapp2.0\startbootstrap-sb-admin.dll
+C:\Users\kato\Documents\GitHub\startbootstrap-sb-admin\obj\Debug\netcoreapp2.0\startbootstrap-sb-admin.pdb
