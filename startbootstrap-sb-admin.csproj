@@ -1,0 +1,137 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <UserSecretsId>aspnet-startbootstrap_sb_admin-99219161-4F92-45EE-8B43-62AF2AE1805A</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="Data\app.db" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\sb-admin\.gitignore" />
+    <None Include="wwwroot\lib\sb-admin\.jsbeautifyrc" />
+    <None Include="wwwroot\lib\sb-admin\.travis.yml" />
+    <None Include="wwwroot\lib\sb-admin\blank.html" />
+    <None Include="wwwroot\lib\sb-admin\cards.html" />
+    <None Include="wwwroot\lib\sb-admin\charts.html" />
+    <None Include="wwwroot\lib\sb-admin\css\sb-admin.css" />
+    <None Include="wwwroot\lib\sb-admin\css\sb-admin.min.css" />
+    <None Include="wwwroot\lib\sb-admin\forgot-password.html" />
+    <None Include="wwwroot\lib\sb-admin\gulpfile.js" />
+    <None Include="wwwroot\lib\sb-admin\index.html" />
+    <None Include="wwwroot\lib\sb-admin\js\sb-admin-charts.js" />
+    <None Include="wwwroot\lib\sb-admin\js\sb-admin-charts.min.js" />
+    <None Include="wwwroot\lib\sb-admin\js\sb-admin-datatables.js" />
+    <None Include="wwwroot\lib\sb-admin\js\sb-admin-datatables.min.js" />
+    <None Include="wwwroot\lib\sb-admin\js\sb-admin.js" />
+    <None Include="wwwroot\lib\sb-admin\js\sb-admin.min.js" />
+    <None Include="wwwroot\lib\sb-admin\LICENSE" />
+    <None Include="wwwroot\lib\sb-admin\login.html" />
+    <None Include="wwwroot\lib\sb-admin\navbar.html" />
+    <None Include="wwwroot\lib\sb-admin\pug\blank.pug" />
+    <None Include="wwwroot\lib\sb-admin\pug\cards.pug" />
+    <None Include="wwwroot\lib\sb-admin\pug\charts.pug" />
+    <None Include="wwwroot\lib\sb-admin\pug\forgot-password.pug" />
+    <None Include="wwwroot\lib\sb-admin\pug\includes\css\core.pug" />
+    <None Include="wwwroot\lib\sb-admin\pug\includes\css\custom.pug" />
+    <None Include="wwwroot\lib\sb-admin\pug\includes\footer.pug" />
+    <None Include="wwwroot\lib\sb-admin\pug\includes\js\core.pug" />
+    <None Include="wwwroot\lib\sb-admin\pug\includes\js\custom.pug" />
+    <None Include="wwwroot\lib\sb-admin\pug\includes\modals\logout.pug" />
+    <None Include="wwwroot\lib\sb-admin\pug\includes\navbar.pug" />
+    <None Include="wwwroot\lib\sb-admin\pug\includes\scroll-to-top.pug" />
+    <None Include="wwwroot\lib\sb-admin\pug\index.pug" />
+    <None Include="wwwroot\lib\sb-admin\pug\login.pug" />
+    <None Include="wwwroot\lib\sb-admin\pug\navbar.pug" />
+    <None Include="wwwroot\lib\sb-admin\pug\register.pug" />
+    <None Include="wwwroot\lib\sb-admin\pug\tables.pug" />
+    <None Include="wwwroot\lib\sb-admin\README.md" />
+    <None Include="wwwroot\lib\sb-admin\register.html" />
+    <None Include="wwwroot\lib\sb-admin\scss\navbar\_navbar_colors.scss" />
+    <None Include="wwwroot\lib\sb-admin\scss\navbar\_navbar_fixed.scss" />
+    <None Include="wwwroot\lib\sb-admin\scss\navbar\_navbar_global.scss" />
+    <None Include="wwwroot\lib\sb-admin\scss\navbar\_navbar_static.scss" />
+    <None Include="wwwroot\lib\sb-admin\scss\navbar\_navbar_toggle.scss" />
+    <None Include="wwwroot\lib\sb-admin\scss\sb-admin.scss" />
+    <None Include="wwwroot\lib\sb-admin\scss\_cards.scss" />
+    <None Include="wwwroot\lib\sb-admin\scss\_footer.scss" />
+    <None Include="wwwroot\lib\sb-admin\scss\_global.scss" />
+    <None Include="wwwroot\lib\sb-admin\scss\_login.scss" />
+    <None Include="wwwroot\lib\sb-admin\scss\_mixins.scss" />
+    <None Include="wwwroot\lib\sb-admin\scss\_utilities.scss" />
+    <None Include="wwwroot\lib\sb-admin\scss\_variables.scss" />
+    <None Include="wwwroot\lib\sb-admin\tables.html" />
+    <None Include="wwwroot\lib\sb-admin\vendor\bootstrap\css\bootstrap-grid.css" />
+    <None Include="wwwroot\lib\sb-admin\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <None Include="wwwroot\lib\sb-admin\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <None Include="wwwroot\lib\sb-admin\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <None Include="wwwroot\lib\sb-admin\vendor\bootstrap\css\bootstrap.css" />
+    <None Include="wwwroot\lib\sb-admin\vendor\bootstrap\css\bootstrap.min.css" />
+    <None Include="wwwroot\lib\sb-admin\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\sb-admin\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\sb-admin\vendor\bootstrap\js\bootstrap.js" />
+    <None Include="wwwroot\lib\sb-admin\vendor\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\sb-admin\vendor\chart.js\Chart.bundle.js" />
+    <None Include="wwwroot\lib\sb-admin\vendor\chart.js\Chart.bundle.min.js" />
+    <None Include="wwwroot\lib\sb-admin\vendor\chart.js\Chart.js" />
+    <None Include="wwwroot\lib\sb-admin\vendor\chart.js\Chart.min.js" />
+    <None Include="wwwroot\lib\sb-admin\vendor\datatables\dataTables.bootstrap4.css" />
+    <None Include="wwwroot\lib\sb-admin\vendor\datatables\dataTables.bootstrap4.js" />
+    <None Include="wwwroot\lib\sb-admin\vendor\datatables\jquery.dataTables.js" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\css\font-awesome.css" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\css\font-awesome.min.css" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\less\animated.less" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\less\bordered-pulled.less" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\less\core.less" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\less\fixed-width.less" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\less\font-awesome.less" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\less\icons.less" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\less\larger.less" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\less\list.less" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\less\mixins.less" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\less\path.less" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\less\rotated-flipped.less" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\less\screen-reader.less" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\less\stacked.less" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\less\variables.less" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\scss\font-awesome.scss" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\scss\_animated.scss" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\scss\_bordered-pulled.scss" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\scss\_core.scss" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\scss\_fixed-width.scss" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\scss\_icons.scss" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\scss\_larger.scss" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\scss\_list.scss" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\scss\_mixins.scss" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\scss\_path.scss" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\scss\_rotated-flipped.scss" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\scss\_screen-reader.scss" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\scss\_stacked.scss" />
+    <None Include="wwwroot\lib\sb-admin\vendor\font-awesome\scss\_variables.scss" />
+    <None Include="wwwroot\lib\sb-admin\vendor\jquery-easing\jquery.easing.compatibility.js" />
+    <None Include="wwwroot\lib\sb-admin\vendor\jquery-easing\jquery.easing.js" />
+    <None Include="wwwroot\lib\sb-admin\vendor\jquery-easing\jquery.easing.min.js" />
+    <None Include="wwwroot\lib\sb-admin\vendor\jquery\jquery.js" />
+    <None Include="wwwroot\lib\sb-admin\vendor\jquery\jquery.min.js" />
+  </ItemGroup>
+
+</Project>
