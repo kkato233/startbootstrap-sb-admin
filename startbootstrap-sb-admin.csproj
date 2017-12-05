@@ -135,6 +135,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Models\UserMenteViewModels\" />
     <Folder Include="wwwroot\lib\bootstrap-4.0.0-beta\" />
   </ItemGroup>
 

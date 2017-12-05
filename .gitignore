@@ -1,2 +1,5 @@
 node_modules
 .vs/
+/Data/app.db
+/obj/
+/bin/
