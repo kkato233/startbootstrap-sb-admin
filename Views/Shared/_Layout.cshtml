@@ -73,6 +73,23 @@
                         <span class="nav-link-text">Tables</span>
                     </a>
                 </li>
+                @if (User.IsInRole("Admin"))
+                {
+                    <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
+                        <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
+                            <i class="fa fa-fw fa-wrench"></i>
+                            <span class="nav-link-text">管理者</span>
+                        </a>
+                        <ul class="sidenav-second-level collapse" id="collapseComponents">
+                            <li>
+                                <a asp-action="Index" asp-controller="UserMente">ユーザ管理</a>
+                            </li>
+                            <li>
+                                <a asp-action="Index" asp-controller="UserMente">一覧</a>
+                            </li>
+                        </ul>
+                    </li>
+                }
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
                     <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
                         <i class="fa fa-fw fa-wrench"></i>

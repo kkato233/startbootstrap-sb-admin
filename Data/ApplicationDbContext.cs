@@ -22,5 +22,7 @@ namespace startbootstrap_sb_admin.Data
             // For example, you can rename the ASP.NET Identity table names and more.
             // Add your customizations after calling base.OnModelCreating(builder);
         }
+
+        public DbSet<startbootstrap_sb_admin.Models.ApplicationUser> ApplicationUser { get; set; }
     }
 }

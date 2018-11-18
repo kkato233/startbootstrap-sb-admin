@@ -33,5 +33,10 @@ namespace startbootstrap_sb_admin.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public IActionResult Blank()
+        {
+            return View();
+        }
     }
 }
